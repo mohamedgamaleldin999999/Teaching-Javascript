@@ -1,22 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <script>
-    const spices = [
-    {name: "Emma", nickname: "Baby"},
-    {name: "Geri", nickname: "Ginger"},
-    {name: "Mel B", nickname: "Scary"},
-    {name: "Mel C", nickname: "Sporty"},
-    {name: "Victoria", nickname: "Posh"}
-];
 
-const names = spices.map(s => s.name)
-const endInY = spices.filter(s => s.name.endsWith('a'))
-  </script>
+<!doctype html>
+<html data-theme="dark">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" type="image/svg+xml" href="/professional-javascript/favicon.svg" />
+
+	<title>Dark Mode | Professional JavaScript</title>
+
+  <link rel="stylesheet" crossorigin href="/professional-javascript/assets/pico-8OHCBZ3Z.css">
+  <link rel="stylesheet" crossorigin href="/professional-javascript/assets/darklight-ICWrBW5s.css">
+</head>
+
+<body class="container grid">
+	<header>
+		<h1>dark mode</h1>
+	</header>
+
+	<nav style="align-self:center;">
+
+		<label>
+			<input type="checkbox" id="toggle" name="toggle" role="switch" checked>
+			Use dark mode
+		</label>
+
+	</nav>
+
+	<main>
+		<article>
+
+			<main id="darklight"></main>
+
+		</article>
+	</main>
+
+	<footer>
+
+
+	</footer>
+	<script id="theme.js">
+
+	</script>
 </body>
+
 </html>
